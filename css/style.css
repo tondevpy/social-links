@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 10px; /* Define 1rem como 10px */
+}
+
+body {
+  background: #141414;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  padding: 4rem; /* 40px trocado por 4rem */
+  border-radius: 1.2rem; /* 12px trocado por 1.2rem */
+  background: #1f1f1f;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 8.8rem; /* 88px trocado por 8.8rem */
+  height: 8.8rem; /* 88px trocado por 8.8rem */
+  margin-bottom: 2.4rem; /* 24px trocado por 2.4rem */
+}
+
+.info h1 {
+  color: #fff;
+}
+
+.locale {
+  margin-top: 0.4rem; /* 4px trocado por 0.4rem */
+  color: #c4f82a;
+}
+
+.jobs {
+  margin-top: 2.4rem; /* 24px trocado por 2.4rem */
+  color: #fff;
+  margin-bottom: 2.4rem; /* 24px trocado por 2.4rem */
+}
+
+.card {
+  margin-bottom: 1.6rem; /* 16px trocado por 1.6rem */
+  background: #333333;
+  border-radius: 0.8rem; /* 8px trocado por 0.8rem */
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2.4rem; /* 24px trocado por 2.4rem */
+  width: 30.4rem; /* 304px trocado por 30.4rem */
+  transition: 1s;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #c4f82a;
+  color: black;
+}
+
+@media screen and (max-width: 40rem) { /* 400px trocado por 40rem */
+  .content {
+    padding: 2.4rem; /* 24px trocado por 2.4rem */
+  }
+
+  .card {
+    width: 27.9rem; /* 279px trocado por 27.9rem */
+  }
+}
